@@ -1,0 +1,64 @@
+//
+//  PrefixHeader.pch
+//  Rac重构demo
+//
+//  Created by junlongZhou on 2017/7/20.
+//  Copyright © 2017年 Mr.Zhou. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+#import "AppDelegate.h"
+//
+#import "CMRequest.h"
+#import "LSCoreToolCenter.h"
+
+#import "ACMacros.h"
+#import "AppMacro.h"
+#import "UtilsMacro.h"
+#import "VendorMarco.h"
+#import "APIMacro.h"
+#import "NotificationMacro.h"
+#import "ToolView.h"
+
+#import <Reachability/Reachability.h>
+#import <JSONKit/JSONKit.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import <MJRefresh/MJRefresh.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry/Masonry.h>
+#import <MJExtension/MJExtension.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
+//#import <UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell.h>
+//#import <UIViewController+MJPopupViewController.h>
+#import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+
+
+//类别
+#import "UIColor+WTK.h"
+#import "UIImage+WTK.h"
+#import "UIButton+WTKBtn.h"
+#import "UIFont+WTK.h"
+#import "UILabel+WTK.h"
+#import "UITextField+WTK.h"
+//工具类
+
+
+
+#import "WTKRequestManager.h"
+#import "WTKGood.h"
+#import "WTKUser.h"
+#import "WTKTool.h"
+#import "WTKShoppingManager.h"
+#import "WTKDataManager.h"
+#import "WTKNetWork.h"
+//#import "WTKMapManager.h"
+
+#endif
+#endif /* PrefixHeader_pch */
